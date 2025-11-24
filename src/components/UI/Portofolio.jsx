@@ -26,6 +26,11 @@ const Portofolio = () => {
             setPortfolios(data)
         }
 
+        if(selectTab==='quality-assurance'){
+            const filteredData = data.filter(item=> item.category==='Quality Assurance Automation')
+            setPortfolios(filteredData)
+        }
+
         if(selectTab==='web-design'){
             const filteredData = data.filter(item=> item.category==='Web Design')
             setPortfolios(filteredData)
@@ -50,6 +55,9 @@ const Portofolio = () => {
                     <div className='flex gap-3 '>
                         <button onClick={()=>setSelectTab('all')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
                             All
+                        </button>
+                        <button onClick={()=>setSelectTab('quality-assurance')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
+                            Quality Assurance
                         </button>
                         <button onClick={()=>setSelectTab('web-design')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
                             Web Design

@@ -15,9 +15,9 @@ const Hero = () => {
                     <h5 data-aos='fade-right' data-aos-duration='1500' className='text-headingColor font-[600] text-[16px]'>
                         Hello Welcome
                     </h5>
-                    <h1 data-aos='fade-up' data-aos-duration='1500' className='text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5'>
+                    <h1 data-aos='fade-up' data-aos-duration='1500' className='text-headingColor font-[780] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5'>
                         I'm Arsenio Jusuf Abimanyu <br />
-                        Front End Web Developer
+                        Quality Assurance Software Engineer
                     </h1>
 
                     <div data-aos='fade-right' data-aos-duration='1800' data-aos-delay='200' className='flex items-center gap-6 mt-7'>
@@ -29,15 +29,14 @@ const Hero = () => {
                         <a href='#portofolio' className='text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor'> See Portofolio</a>
                     </div>
                     <p data-aos='fade-left' data-aos-duration='1500' className='flex gap-2 text-headingColor mt-14 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10 text-justify'><span><i class="ri-megaphone-fill"></i></span>
-                        A Fresh Graduate of Informatics Engineering with a Bachelor of Computer Science degree GPA 3.25 Telkom University. During my College, I had a 
-                        great enthusiasm in developing technical and creative skills in the world of information technology and have undergone various projects that include 
-                        roles as Software Engineer, Full Stack Developer, Front End Developer, Back End Developer, and also UI/UX Designer. These experiences helped me 
-                        to understand holistically about software development, from designing attractive user interfaces to implementing complex business logic at the Back End 
-                        level. I have expertise in various programming languages such as C++, Python, JavaScript, Golang, PHP, and HTML/CSS as well as the ability to use 
-                        various software development tools such as Git, React, Vue, Node.js, and more. In addition, I also have a strong understanding of UI/UX principles with 
-                        Figma which helps me to create an optimal user experience. I am a continuous learner and innovator, ready to take on new challenges in the world of 
-                        information technology. I am committed to continuously improving my technical and creative skills to add value to the company and projects I am 
-                        involved in. I believe that the combination of my experience and passion will make me a valuable asset in the world of software development.
+                         I am a Quality Assurance (QA) Tester with 2 years of experience in manual and automated testing of web and mobile applications. Skilled in using
+                         Katalon, Selenium, and Appium for automation, as well as experienced in API testing (Postman), SQL validation, load testing (JMeter), and smoke
+                         testing to ensure system stability prior to release. I understand the concepts and implementation of CI/CD in SIT and Production environments, and
+                         actively participate in User Acceptance Testing (UAT) alongside the Product Owner to ensure the quality of features delivered to users. In my
+                         experience, I have successfully optimized regression test time by up to 40% through the implementation of efficient automation. I have strong analytical
+                         skills, think critically to find the root cause of problems, and collaborate effectively with cross-functional teams such as Developers, Product Owners,
+                         and UI/UX Designers. I am quality-oriented, meticulous, and continuously develop myself to improve the efficiency and reliability of the testing
+                         process.
                     </p>
 
                     <div className='flex items-center gap-9 mt-14'>
@@ -55,8 +54,8 @@ const Hero = () => {
                 </div>
                 {/*end konten*/}
 
-                {/*foto arsenio jusuf abimanyu*/}
-                <div data-aos='fade-up' data-aos-duration='1500' className='basis-1/3 mt-10 sm:mt-0'>
+                {/*foto arsenio*/}
+                <div data-aos='fade-up' data-aos-duration='1500' className='basis-1/3 mt-3 sm:mt-0'>
                     <figure className='flex items-center justify-center'>
                         <img src={heroImg} alt='' />
                     </figure>
@@ -67,15 +66,15 @@ const Hero = () => {
                 <div className='md:basics-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
                     <div className='mb-10'>
                         <h2 className='text-headingColor font-[700] text-[32px]'>
-                            <CountUp start={0} end={1} duration={2} suffix='+' />
+                            <CountUp start={0} end={3} duration={2} suffix='' />
                         </h2>
                         <h4 className='text-headingColor font-[600] text-[18px]'>
-                            Years of Work Experience
+                            Years of Work Experiences
                         </h4>
                     </div>
                     <div className='mb-10'>
                         <h2 className='text-headingColor font-[700] text-[32px]'>
-                            <CountUp start={0} end={5} duration={2} suffix='+' />
+                            <CountUp start={0} end={11} duration={2} suffix='' />
                         </h2>
                         <h4 className='text-headingColor font-[600] text-[18px]'>
                             Projects Completed

@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
 
           <div className='w-full sm:w-1/2'>
-            <p className='text-gray-300 leading-7 mt-4 sm:mt-0 text-justify'>I am actively involved in collaborative projects that require creative thinking and innovative solutions. Participate in teams focused on problem-solving and achieving common goals. Master a wide range of technical skills, including building UI/UX, web design and development, graphic design, data analysis. Execute projects with high efficiency and achieve set business goals. Play a role in designing and implementing innovative ideas that produce positive results. Interact with various parties to ensure clear understanding and achievement of common goals. Provide an inclusive and supportive work environment for all team members.</p>
+            <p className='text-gray-300 leading-7 mt-4 sm:mt-0 text-justify'>I help ensure software product quality through a structured testing process, including manual and automated testing. I design and execute test plans, test scenarios, and test cases to validate functionality, stability, and compliance with business requirements. In automated testing, I build and maintain scripts that support regression testing efficiency and integration with CI/CD to accelerate the release process. I also analyze defects, provide clear and actionable reports, and collaborate with the development and product teams to ensure each release meets optimal quality standards.</p>
             <div className='flex items-center gap-4 flex-wrap md:gap-8 mt-10'>
               <span className='text-gray-300 font-[600] text-[15px]'>Follow me :</span>
               <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
@@ -66,7 +66,7 @@ const Footer = () => {
                   <h2 className='text-gray-200 font-[500] text-[18px]'>
                     Arsenio Jusuf Abimanyu
                   </h2>
-                  <p className='text-gray-400 text-[14px] font-[500]'>personal front end web portofolio</p>
+                  <p className='text-gray-400 text-[14px] font-[500]'>personal web portofolio</p>
                 </div>
               </div>
             </div>
